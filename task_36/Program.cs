@@ -6,14 +6,14 @@
 Console.WriteLine("Enter the number of elements in the array");
 int number = Convert.ToInt32(Console.ReadLine());
 
-int []array =new int[number];
+int[] array = new int[number];
 int size = array.Length;
 double sumOddElement = 0;
-for (int i = 0; i< size; i++)
+for (int i = 0; i < size; i++)
 {
     array[i] = new Random().Next();
 
-    if(i % 2 != 0)
+    if (i % 2 != 0)
     {
         sumOddElement += array[i];
     }
