@@ -8,7 +8,7 @@ int number = Convert.ToInt32(Console.ReadLine());
 
 int []array =new int[number];
 int size = array.Length;
-int sumOddElement = 0;
+double sumOddElement = 0;
 for (int i = 0; i< size; i++)
 {
     array[i] = new Random().Next();
