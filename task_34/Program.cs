@@ -6,14 +6,14 @@
 Console.WriteLine("Enter the number of elements in the array");
 int number = Convert.ToInt32(Console.ReadLine());
 
-int []array =new int[number];
+int[] array = new int[number];
 int size = array.Length;
 int evenNumber = 0;
-for (int i = 0; i< size; i++)
+for (int i = 0; i < size; i++)
 {
-    array[i] = new Random().Next(100,1000);
+    array[i] = new Random().Next(100, 1000);
 
-    if(array[i] % 2 == 0)
+    if (array[i] % 2 == 0)
     {
         evenNumber++;
     }
